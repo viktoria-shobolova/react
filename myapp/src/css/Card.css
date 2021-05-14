@@ -1,0 +1,31 @@
+.card {
+    padding: 20px;
+}
+
+.card-title {
+    text-align: center;
+    color: #6b6869;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-desc {
+ color: #494748;
+
+}
+
+.card-image {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 0 rgb(130, 121, 212);
+}
+
+.card .btn {
+    background-color: linear-gradient(to top, #556f85 0%, #68e0cf 100%);
+    color: white;
+    transition: all;
+}
+
+.card .btn:hover {
+    background-color: linear-gradient(to top, #91bfe7 0%, #68e0cf 100%);;
+}
